@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 
 #ifndef STASSID
-#define STASSID "The Kamoro's"
-#define STAPSK "#Digital1421"
+#define STASSID "" //wifi ssid
+#define STAPSK "" //wifi passs
 #endif
 
 const char* ssid = STASSID;
