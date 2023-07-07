@@ -1,0 +1,126 @@
+{
+	"intents":[
+		{"tag":"called_en",
+			"patterns": ["derick","derrick"],
+			"responses":["Yes!"]
+		},
+		{"tag":"greetings_en_short",
+			"patterns": ["hi","hey","hallo","hello","hi there","hello!","hey there!","hi there!","greetings!","salutations!","yo!","howdy!","hola!","aloha!","s'up?","wassup","ssup"],
+			"responses":["Hi there!"]
+		},
+		{"tag":"greetings_en_follow_up",
+			"patterns": ["how are you","how are you doing","how's you","how do you do","how have you been","how’s it going","how is you","how's u?"],
+			"responses":["Am doing great!, you?","Am fine thankyou, you?"]
+		},
+		{"tag":"greetings_en_follow_up_none",
+			"patterns": ["i am good, you?","i am ok,you","i am doing great, you?","i am well,you?"],
+			"responses":["Am doing great, thankyou","Am fine, thankyou"]
+		},
+		{"tag":"greetings_en_close",
+			"patterns": ["i am good","i am ok","i am doing great","i am well"],
+			"responses":["Perfect","Awesome","That's great to hear"]
+		},
+		{"tag":"greetings_bad_en_close",
+			"patterns": ["i am bad","i am so down","i feel sad","i am sad","i am down","i'm bad","i am soooo down","i am soo down"],
+			"responses":["Sorry, why is this?"]
+		},
+		{"tag":"greetings_en_closure",
+			"patterns": ["how has your day been","how was your day"],
+			"responses":["It has been awesome, Yours?"]
+		},
+		{"tag":"greetings_work_follow",
+			"patterns": ["how is work","how's work"],
+			"responses":["Same old, same old."]
+		},
+		{"tag":"greetings_goodmorning",
+			"patterns": ["good morning","morning","goodmorning","goodmorning to you","good morning!","hello, it's morning!","morning to you!","good morning","hey there, it's morning!"],
+			"responses":["Good morning."]
+		},
+		{"tag":"greetings_goodmorning_with_morning_quiz",
+			"patterns": ["hello, how's your morning?","good morning, how's your morning, how is your morning?"],
+			"responses":["My morning is awesome, yours?"]
+		},
+		{"tag":"greetings_goodmorning_with_night_quiz",
+			"patterns": ["hello, how was your night","good morning, hope you slept well, how was your night?"],
+			"responses":["It was awesome, yours?"]
+		},
+		{"tag":"goodmorning_response",
+			"patterns": ["morning too","mrng too","morning to"],
+			"responses":["Hope you've had some sleep"]
+		},
+		{"tag":"greetings_goodafternoon",
+			"patterns": ["goodafternoon","good afternoon"],
+			"responses":["Good Afternoon."]
+		},
+		{"tag":"greetings_goodevening",
+			"patterns": ["goodevening","good evening"],
+			"responses":["Good evening"]
+		},
+		{"tag":"greetings_kis_follow_up",
+			"patterns": ["uko aje","uko salama","unaendelea aje"],
+			"responses":["Niko poa sanaa, na wewe jeh?","Niko salama, na wewe jeh?","Niko fitty sanaa, labda wewe."]
+		},
+		{"tag":"greetings_bro",
+			"patterns": ["bro","kiongozi","mkuu","mkurugenzi","chairman","kaka"],
+			"responses":["Niambie niskie.","Semaje","rada"]
+		},
+		{"tag":"goodnight_bro",
+			"patterns": ["kesho bro","tupatane kesho"],
+			"responses":["wazi bro"]
+		},
+		{"tag":"next_time",
+			"patterns": ["next time","next time then"],
+			"responses":["sure, no problem"]
+		},
+		{"tag":"greetings_goodnight",
+			"patterns": ["goodnight","night","good night","nyt"],
+			"responses":["Goodnight.","Goodnight sleep tight."]
+		},
+		{"tag":"thanks",
+			"patterns": ["thanks","thank you","zank you"],
+			"responses":["Your Welcome","Anytime"]
+		},
+		{"tag":"typing_fast_kis",
+			"patterns": ["leo si unatype mbio","leo watype mbio"],
+			"responses":["haha natumia skills zangu vizuri"]
+		},
+		{"tag":"typing_fast_en",
+			"patterns": ["you are typing fast","how come you are typing that fast","you're typing fast"],
+			"responses":["haha just using my skills"]
+		},
+		{"tag":"thanks_kis",
+			"patterns": ["asante","asanti"],
+			"responses":["Karibu"]
+		},
+		{"tag":"love_manenos",
+			"patterns": ["I love you","nakupenda","I lv you"],
+			"responses":["😍 I love you"]
+		},
+		{"tag":"time_duration",
+			"patterns": ["it is in the morning","it is in the afternoon","it is in the evening","it is in the afternoon","it was in the morning"],
+			"responses":[false]
+		},
+		{"tag":"turn_on",
+			"patterns": ["turn on","on","activate","turn_on","waka","washa stima","turn on the lights","let there be light"],
+			"responses":["turning on the bulb and taking a picture in 2 seconds"]
+		},
+		{"tag":"turn_off",
+			"patterns": ["turn off","off","turn_off","deactivate","zima","let there be darkness"],
+			"responses":["turning off the bulb and taking a picture in 2 seconds"]
+		},
+		{"tag":"pay",
+			"patterns": ["give me my money","pay me now","you owe me","fulfil your end of the deal","nilipe","pay","double pay","twice the deal","tripple pay","pay me twice the money","pay me tripple the moeny","tripple the money"],
+			"responses":["I am sending a little reward to your phone as you read this\n,NB Only safaricom supported\nThank you for pariticipating in My owners birthday challenge(his way of having fun)\n See you around!!!"]
+		},
+		{"tag":"happy_birthday",
+			"patterns": ["happy birthday","hbd","happybirthday","happybirthday","happy birthday to you", "happy birthday to yah"],
+			"responses":["Thank you, it is not necessarily my birthday\nits my owner birthday but he will surely be happy for this when he reads it"]
+		},
+		{"tag":"challenge",
+			"patterns": ["whats the challenge","what is the challenge","challenge","I had you have a challege","the challenge","ai","a.i","aphelion","sielewei"],
+			"responses":["The challenge is easy\nMy owner has connected an external bulb to the internet and is giving a chance to his contacts on whatsapp to turn it on and off, it goes like this\n1. send a text that you think will turn on the bulb.: if it does I will send a picture of the bulb\n2. Send another Picture to turn off the bulb and if it does I will send a picture\n3. Say the pay word and I will reward you with 50ksh airtime(Safaricom only)"]
+		}
+
+	],
+	"greetings_correction":"I am sorry but my local time is {}:{}:{} EAT so its in the {} here."
+}
